@@ -6,11 +6,11 @@
             <a class="post-img" href="{{ route('blog.isi',$list->slug) }}"><img src="{{ asset($list->gambar) }}"></a>
                 <div class="post-body">
                     <div class="post-category">
-                        <a href="category.html">{{ $list->category->name }}</a>
+                        <a href="#">{{ $list->category->name }}</a>
                     </div>
-                        <h3 class="post-title"><a href="blog-post.html">{{ $list->judul }}</a></h3>
+                        <h3 class="post-title"><a href="{{ route('blog.isi',$list->slug) }}">{{ $list->judul }}</a></h3>
                         <ul class="post-meta">
-                            <li><a href="author.html">{{ $list->users->name }}</a></li>
+                            <li>{{ $list->users->name }}</li>
                             <li>{{ $list->created_at->diffForHumans() }}</li>
                         </ul>
                     </div>
