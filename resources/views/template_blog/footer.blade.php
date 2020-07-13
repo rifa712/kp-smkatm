@@ -25,9 +25,7 @@
 						<h3 class="footer-title">Categories</h3>
 						<div class="category-widget">
 							<ul>
-								@foreach($category_widget as $hasil)
-								<li><a href="{{ route('blog.category',$hasil->slug) }}">{{ $hasil->name }}<span>{{ $hasil->posts->count() }}</span></a></li>
-								@endforeach
+								
 							</ul>
 						</div>
 					</div>
@@ -97,7 +95,7 @@
 				loop:true,
 				autoplay:true,
 				autoWidth:true,
-				items:4,
+				items:3,
 				center:true
 			})
 	</script>

@@ -23,8 +23,8 @@
                 Raihlah kemenangan<br>
                 Ilahi menanti pasti <br><br></p>
         </div>
-        <div class="col-md-12">
-            <div class="col-md-6" style="padding: 5px 0px ;">
+        <div class="row col-md-12">
+            <div class="col-md-6" >
                 <h3 class="text-center">MARCHING TUNE OF ATM</h3>
                 <p class="text-center">Raise … Raise up 2x<br>
                     ATM generation<br>
@@ -38,7 +38,7 @@
                     PROGRESS..WEALTHY !<br>
                     Will be your true dream</p>
             </div>
-            <div class="col-md-6" style="padding: 5px 0px ;">
+            <div class="col-md-6" >
                 <h3 class="text-center">MARS ATM</h3>
                 <p class="text-center">BANGKIT BANGKITLAH GENERASI ATM<br>
                     RAIHLAH MASA DEPAN<br>

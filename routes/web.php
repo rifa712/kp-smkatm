@@ -19,7 +19,9 @@ Route::get('/content-field/{slug}','BlogController@isi_blog')->name('blog.isi');
 
 Route::get('/list-post','BlogController@list_blog')->name('blog.list');
 Route::get('/list-category/{category}','BlogController@list_category')->name('blog.category');
+Route::get('/list-tags/{tags}','BlogController@list_tags')->name('blog.tags');
 Route::get('/cari','BlogController@cari')->name('blog.cari');
+
 Route::get('/profil/Visi-dan-Misi','PagesController@visimisi')->name('visimisi');
 Route::get('/profil/Hymne','PagesController@hymne')->name('hymne');
 Route::get('/profil/Nama-dan-Lambang/','PagesController@namalambang')->name('namalambang');

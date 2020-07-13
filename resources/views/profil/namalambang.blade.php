@@ -5,7 +5,7 @@
         <img src=" {{ asset('/landing/img/logo_fix.png') }}" alt="" class="img-thumbnail">
     </center>
         
-        <div class="col-md-12">
+        <div class="row col-md-12">
             <div class="col-md-6">
                 <h3 class="text-center"><br>MAKNA LAMBANG</h3>
                 <p class="text-center">GAMBAR PENA DITENGAH YANG DIHAPIT DUA GAMBAR MATA UANG DOLLAR 

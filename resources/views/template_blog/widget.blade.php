@@ -26,6 +26,14 @@
 								<li><a href="{{ route('blog.category',$hasil->slug) }}">{{ $hasil->name }}<span>{{ $hasil->posts->count() }}</span></a></li>
 								@endforeach
 							</ul>
+						</div><br>
+						<div class="section-title">
+							<h2 class="title">Tags</h2>
+						</div>
+						<div class="category-widget">
+							@foreach($tag_widget as $hasiil)
+								<button type="button" class="btn btn-info"><a href="{{ route('blog.tags',$hasiil->slug) }}">{{ $hasiil->name }}<span>{{ $hasiil->posts }}</span></a></button>
+							@endforeach
 						</div>
 					</div>
 					<!-- /category widget -->

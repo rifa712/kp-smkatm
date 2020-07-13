@@ -6,7 +6,7 @@
             <a class="post-img" href="{{ route('blog.isi',$list->slug) }}"><img src="{{ asset($list->gambar) }}"></a>
                 <div class="post-body">
                     <div class="post-category">
-                        <a href="#">{{ $list->category->name }}</a>
+                        <a href="{{ route('blog.category',$list->category) }}">{{ $list->category->name }}</a>
                     </div>
                         <h3 class="post-title"><a href="{{ route('blog.isi',$list->slug) }}">{{ $list->judul }}</a></h3>
                         <ul class="post-meta">
