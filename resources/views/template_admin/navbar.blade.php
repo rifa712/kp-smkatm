@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-    <title>Blank Page</title>
+    <title>ADMIN</title>
 
     <!-- General CSS Files -->
     <link rel="stylesheet" href=" {{url('/')}}/assets/modules/bootstrap/css/bootstrap.min.css">
@@ -14,6 +14,7 @@
     <!-- Template CSS -->
     <link rel="stylesheet" href="{{ url('/') }}/assets/css/style.css">
     <link rel="stylesheet" href="{{ url('/') }}/assets/css/components.css">
+    <link rel="icon" type="image/png" href="{{ asset('/landing/img/logo_fix.png') }}">
     <!-- Start GA -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-94034622-3"></script>
     <script>

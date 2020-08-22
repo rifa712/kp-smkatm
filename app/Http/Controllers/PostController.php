@@ -153,7 +153,7 @@ class PostController extends Controller
         return redirect()->back()->with('success','Post berhasil di hapus (Tersimpan di TrashPost)');
     }
 
-    public function tampil_hapus(){
+    public function terhapus(){
         $post = Posts::onlyTrashed()->paginate(10);
         return view('admin.post.hapus',compact('post'));
     }

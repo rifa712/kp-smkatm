@@ -319,7 +319,7 @@ textarea.input {
 }
 
 #nav-bottom {
-  border-top: 1px solid #e8eaed;
+  /* border-top: 1px solid #e8eaed; */
 }
 
 /*----------------------------*\
@@ -370,7 +370,7 @@ textarea.input {
 
 .nav-btns {
   float: right;
-  padding: 10px 0px;
+  padding: 15px 0px;
 }
 
 .nav-btns>button {
@@ -389,11 +389,11 @@ textarea.input {
   -ms-transform: translate(-50%, 10px);
   transform: translate(-50%, 10px);
   opacity: 0;
-  visibility: hidden;
+  visibility: visible;
   max-width: 960px;
-  width: 100%;
-  padding: 60px 5%;
-  background: #1b1c1e;
+  width: 60%;
+  padding: 5px;
+  background: #153663;
   z-index: 999;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
@@ -575,7 +575,7 @@ textarea.input {
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: #1b1c1e;
+  background-color: #153663;
   max-width: 360px;
   width: 100%;
   padding: 80px 20px;
@@ -1499,6 +1499,9 @@ textarea.input {
   .footer-nav {
     text-align: left;
     margin-bottom: 30px;
+  }
+  .inputcari{
+    display: none;
   }
 }
 

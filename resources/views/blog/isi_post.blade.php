@@ -14,6 +14,6 @@
     </div>
     <br>
         {!! $isi->content !!}
-        
+    <br><br>
     @endforeach
 @endsection

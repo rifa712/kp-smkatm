@@ -27,6 +27,7 @@
 
 	<!-- Custom stlylesheet -->
 	<link type="text/css" rel="stylesheet" href="{{ asset('/landing/css/style.css') }}" />
+	<link rel="icon" type="image/png" href="{{ asset('/landing/img/logo_fix.png') }}">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -56,7 +57,7 @@
 						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 						<!-- <li><a href="#"><i class="fa fa-google-plus"></i></a></li> -->
-						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="https://www.instagram.com/smkatm/" target="_blank"><i class="fa fa-instagram"></i></a></li>
 					</ul>
 					<!-- /social -->
 
@@ -69,15 +70,9 @@
 					<!-- search & aside toggle -->
 					<div class="nav-btns">
 						<button class="aside-btn"><i class="fa fa-bars"></i></button>
-						<button class="search-btn"><i class="fa fa-search"></i></button>
-						<div id="nav-search">
-							<form action="{{route('blog.cari')}}" method="get">
-								<input class="input" name="cari" placeholder="Enter your search...">
+							<form action="{{route('blog.cari')}}" method="get" class="inputcari">
+								<input class="input" name="cari" placeholder="Cari...">
 							</form>
-							<button class="nav-close search-close">
-								<span></span>
-							</button>
-						</div>
 					</div>
 					<!-- /search & aside toggle -->
 				</div>
@@ -105,11 +100,25 @@
 										<li><a href="{{ route('namalambang') }}">Nama & Lambang</a></li>
 										<li><a href="{{ route('hymne') }}">Hymne</a></li>
 										<li><a href="{{ route('strukturorganisasi') }}">Struktur Organisasi</a></li>
+										<li><a href="{{ route('gurustaff') }}">Guru dan Staff</a></li>
 									</ul>
 								</div>
 							</div>
 						</li>
 						<li><a href="{{ route('blog.list') }}">Berita</a></li>
+						<li class="has-dropdown">
+							<a href="#">Jurusan</a>
+							<div class="dropdown">
+								<div class="dropdown-body">
+									<ul class="dropdown-list">
+										@foreach($jurusan as $res)
+										<li><a href="{{ route('jurusan.isi', $res->slug_jurusan) }}">{{ $res->nama_jurusan }}</a></li>
+										@endforeach
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li><a href="{{ route('contact') }}">Kontak</a></li>
 					</ul>
 					<!-- /nav -->
 				</div>
@@ -129,22 +138,25 @@
 										<li><a href="{{ route('namalambang') }}">Nama & Lambang</a></li>
 										<li><a href="{{ route('hymne') }}">Hymne</a></li>
 										<li><a href="{{ route('strukturorganisasi') }}">Struktur Organisasi</a></li>
+										<li><a href="{{ route('gurustaff') }}">Guru dan Staff</a></li>
 									</ul>
 								</div>
 							</div>
 						</li>
+						<li><a href="{{ route('blog.list') }}">Berita</a></li>
 						<li class="has-dropdown">
-							<a href="#">Category</a>
+							<a href="#">Jurusan</a>
 							<div class="dropdown">
 								<div class="dropdown-body">
 									<ul class="dropdown-list">
-										@foreach($category_widget as $result1)
-											<li><a href="{{ route('blog.category',$result1->slug) }}">{{ $result1->name }}</a></li>
+										@foreach($jurusan as $res)
+										<li><a href="{{ route('jurusan.isi', $res->slug_jurusan) }}">{{ $res->nama_jurusan }}</a></li>
 										@endforeach
 									</ul>
 								</div>
 							</div>
 						</li>
+						<li><a href="{{ route('contact') }}">Kontak</a></li>
 				</ul>
 				<button class="nav-close nav-aside-close"><span></span></button>
 			</div>
