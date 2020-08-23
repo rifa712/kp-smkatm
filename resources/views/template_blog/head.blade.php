@@ -54,10 +54,11 @@
 				<div class="container" style="background-color: #4E6ADB ;">
 					<!-- social -->
 					<ul class="nav-social">
-						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://id-id.facebook.com/smkauliyateladanmandiri/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+						<!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
 						<!-- <li><a href="#"><i class="fa fa-google-plus"></i></a></li> -->
 						<li><a href="https://www.instagram.com/smkatm/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="https://www.youtube.com/channel/UCNtM1e7QIm9WuzIkdtBRxwA/" target="_blank"><i class="fa fa-youtube"></i></a></li>
 					</ul>
 					<!-- /social -->
 

@@ -62,30 +62,33 @@
 						<!-- End Filosofi -->
 						<div class="col-md-12">
 						<h3 class="text-center title">Sambutan Kepala Sekolah</h3><br>
+						
+							<div class="row">
 								<div class="col-md-4">
 									<img src=" {{ asset($sambutan->foto_sambutan) }} " alt="" class="img-fluid" style="border:none;"></a>
 								</div>
 								<div class="col-md-8">
 										<div class="col-md-12">
+										<center>
 											{!! $sambutan->isi_sambutan !!}
+										</center>
+											
 										</div>
 								</div>
+							</div>
 
 						</div>
 						<!-- post -->
 
-						<!-- Filosofi -->
-						<!-- <div class="col-md-12">
+						<!-- Info Sekolah -->
+							<div class="col-md-12"><br><br>
 								<h3 class="text-center title">Info Sekolah</h3>
-							</div>
-							
-							<div class="row">
-								<p class="text-center">
-								sasa
-								</p><br><br>
-							</div> -->
-						<!-- End Filosofi -->
+								<p>
 
+								</p>
+							</div>
+						<!--  -->
+						
 						<!-- Jurusan -->
 							<div class="col-md-12"><br><br>
 								<h3 class="text-center title">Jurusan</h3>
@@ -99,6 +102,35 @@
 								@endforeach
 							</div>
 						<!-- End Jurusan -->
+
+						<!-- Begin -->
+						<div class="col-md-12"><br><br>
+								<h3 class="text-center title">Nilai-Nilai Dasar Ke ATM-an</h3>
+								<p class="text-center">
+									ADALAH JATI DIRI, KELUHUNGAN RENUNGAN KEHIDUPAN: <br>
+									1. KEHIDMATAN TEOSOFI TENTANG MANDAT DAN TUGAS POKOK MANUSIA SEBAGAI KHALIFAH UNTUK MEMAKMURKAN KEHIDUPAN.<br>
+									2. HIKMAH FILOSOFI UNTUK MENERJEMAHKAN KODRAT ATAU NASIB BAIK HIDUP MANUSIA YANG BISA DIUBAH OLEH DIRINYA SENDIRI.<br>
+									3. KESADARAN PARADIGMATIK BAHWA MANUSIA HAKEKATNYA HANIF CENDERUNG POSITIF (EDUCABLE), BISA DIDIK MENJADI LEBIH BAIK.<br>
+									4. PEMAHAMAN TEORETIK BAHWA PENDIDIKAN BISA DIJADIKAN PILIHAN UNTUK MELAKUKAN REKAYASA INSANI MENUJU MANUSIA PRODUKTIF<br>
+									5. TEMUAN METODOLOGIK BAHWA METODE PENDIDIKAN YANG DITERAPLAKSANAKAN DI SMK ATM BISA MENGHASILKAN LULUSAN YANG MEMILIKI SENSE OF ENTREPRENEURSHIP.<br>
+									6. PERISTIWA FENOMENAL MENUNJUKKAN KUATNYA KESADARAN PARA GURU DAN SISWA UNTUK MENJADI PELAKU USAHA SECARA SIGAP.<br>
+									7. FAKTA BARU, CIVITAS SMK ATM MAMPU BEKERJA KERAS UNTUK MEWUJUDKAN KEMAJUAN BERSAMA YANG LUAR BIASA DI, DARI, OLEH, UNTUK, DENGAN DAN<br>
+									BERSAMA SMK ATM +3.
+								</p>
+							</div>
+							<div class="col-md-12"><br><br>
+								<h3 class="text-center title">Pilar Dasar Cita-Cita</h3>
+								<p class="text-center">
+								KEHADIRAN SMK ATM DIDASARKAN PADA KEHIDMATAN, KEGELISAHAN DAN <br>
+								KERESAHAN AKAN FAKTA FENOMENAL BANYAKNYA LULUSAN SEKOLAH MENGANGGUR.<br>
+								MENGAPA TERJADI?<br>
+								SIAPA PEDULI?<br>
+								BAGAIMANA SOLUSINYA?<br>
+								KAPAN BERTINDAK DAN DIMANA FOKUSNYA?.<br>
+								JAWABANNYA PASTIKAN ADA DI SMK ATM.
+								</p>
+							</div>
+						<!-- End  -->
 					</div>
 					<!-- /row -->
 

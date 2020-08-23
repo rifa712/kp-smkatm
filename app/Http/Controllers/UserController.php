@@ -14,6 +14,7 @@ class UserController extends Controller
      */
     public function index()
     {
+        $this->authorize('isAdmin');
         $user = User::paginate(10);
         return view('admin.user.index',compact('user'));
     }
@@ -25,6 +26,7 @@ class UserController extends Controller
      */
     public function create()
     {
+        $this->authorize('isAdmin');
         return view('admin.user.create');
     }
 
@@ -36,6 +38,7 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
+        $this->authorize('isAdmin');
         $this->validate($request,[
             'name' => 'required|min:3|max:100',
             'email' => 'required|email',
@@ -76,6 +79,7 @@ class UserController extends Controller
      */
     public function edit($id)
     {
+        $this->authorize('isAdmin');
         $user = User::find($id);
         return view('admin.user.edit',compact('user'));
     }
@@ -89,6 +93,7 @@ class UserController extends Controller
      */
     public function update(Request $request, $id)
     {
+        $this->authorize('isAdmin');
         $this->validate($request,[
             'name' => 'required|min:3|max:100',
             'tipe' => 'required'
@@ -121,6 +126,7 @@ class UserController extends Controller
      */
     public function destroy($id)
     {
+        $this->authorize('isAdmin');
         $user = User::find($id);
         $user->delete();
 

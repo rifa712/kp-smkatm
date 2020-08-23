@@ -36,7 +36,7 @@ return [
     'mailers' => [
         'smtp' => [
             'transport' => 'smtp',
-            'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
+            'host' => env('MAIL_HOST', 'smtp.gmail.com'),
             'port' => env('MAIL_PORT', 587),
             'encryption' => env('MAIL_ENCRYPTION', 'tls'),
             'username' => env('MAIL_USERNAME'),
@@ -51,6 +51,10 @@ return [
 
         'mailgun' => [
             'transport' => 'mailgun',
+        ],
+
+        'gmail' => [
+            'transport' => 'gmail',
         ],
 
         'postmark' => [
@@ -84,7 +88,7 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
+        'address' => env('MAIL_FROM_ADDRESS', 'draigascalon3@gmail.com'),
         'name' => env('MAIL_FROM_NAME', 'Example'),
     ],
 

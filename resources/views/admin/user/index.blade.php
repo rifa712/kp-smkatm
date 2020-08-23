@@ -37,7 +37,7 @@
                         <form action="{{ route('user.destroy',$hasil->id) }}" method="POST">
                             @csrf
                             @method('delete')
-                            <a href=" {{ route('user.edit' , $hasil->id) }} " class="btn btn-primary btn-sm"> Edit </a>
+                                    <a href=" {{ route('user.edit' , $hasil->id) }} " class="btn btn-primary btn-sm"> Edit </a>
                                 <button type="submit" class="btn btn-danger btn-sm"> Delete </button>
                         </form>
                     </td>

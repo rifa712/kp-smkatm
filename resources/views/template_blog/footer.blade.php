@@ -4,23 +4,25 @@
 		<div class="container" >
 			<!-- row -->
 			<div class="row">
-				<div class="col-md-3">
+				<div class="col-md-6">
 					<div class="footer-widget">
 						<p>Social Media</p>
 						<ul class="contact-social">
-							<li><a href="#" class="social-facebook"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#" class="social-twitter"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="https://id-id.facebook.com/smkauliyateladanmandiri/" target="_blank" class="social-facebook"><i class="fa fa-facebook"></i></a></li>
+							<!-- <li><a href="#" class="social-twitter"><i class="fa fa-twitter"></i></a></li> -->
 							<!-- <li><a href="#" class="social-google-plus"><i class="fa fa-google-plus"></i></a></li> -->
-							<li><a href="#" class="social-instagram"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="https://www.instagram.com/smkatm/" target="_blank" class="social-instagram"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="https://www.youtube.com/channel/UCNtM1e7QIm9WuzIkdtBRxwA/" target="_blank" class="social-google-plus"><i class="fa fa-youtube"></i></a></li>
 						</ul><br>
 						<p>Contact</p>
-						<ul class="contact-social">
-							<li><i class="fa fa-phone"></i> 022-222-222</li>
-							<li><i class="fa fa-envelope"></i>  gmail@gmail.com</li>
+						<ul class="contact-social list-group">
+							<li><i class="fa fa-phone"></i> 0852 9464 0264 </li>
+							<li><i class="fa fa-phone"></i> 0852 2124 2910 </li>
+							<li><i class="fa fa-envelope"></i> info.smkatm@gmail.com  </li>
 						</ul>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<!-- <div class="col-md-3">
 					<div class="footer-widget">
 						<h3 class="footer-title">Categories</h3>
 						<div class="category-widget">
@@ -29,7 +31,7 @@
 							</ul>
 						</div>
 					</div>
-				</div>
+				</div> -->
 				<div class="col-md-6">
 					<div class="footer-widget">
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.919631077656!2d108.17144751499862!3d-7.018733070705714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f36ee1732fca7%3A0x20e26a3c2b0230b1!2sSMK%20Auliya%20Teladan%20Mandiri%20(ATM)!5e0!3m2!1sid!2sid!4v1594185422885!5m2!1sid!2sid" width="100%" height="250px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
