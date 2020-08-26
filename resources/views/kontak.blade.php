@@ -48,18 +48,20 @@
                                         </ul><br>
                                         <h4>Email</h4>
                                         <ul class="contact-social">
-                                            <li><i class="fa fa-envelope"></i>  gmail@gmail.com</li>
+                                            <li><i class="fa fa-envelope"></i>  info.smkatm@gmail.com</li>
                                         </ul><br>
                                         <h4>Telepon</h4>
-                                        <ul class="contact-social">
-                                            <li><i class="fa fa-phone"></i> 022-222-222</li>
+                                        <ul class="contact-social list-group">
+                                            <li><i class="fa fa-phone"></i> 0852 9464 0264 </li>
+                                            <li><i class="fa fa-phone"></i> 0852 2124 2910 </li>
                                         </ul><br>
                                         <h4>Social Media</h4>
                                         <ul class="contact-social">
-                                            <li><a href="#" class="social-facebook"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#" class="social-twitter"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="https://id-id.facebook.com/smkauliyateladanmandiri/" target="_blank" class="social-facebook"><i class="fa fa-facebook"></i></a></li>
+                                            <!-- <li><a href="#" class="social-twitter"><i class="fa fa-twitter"></i></a></li> -->
                                             <!-- <li><a href="#" class="social-google-plus"><i class="fa fa-google-plus"></i></a></li> -->
                                             <li><a href="https://www.instagram.com/smkatm/" target="_blank" class="social-instagram"><i class="fa fa-instagram"></i></a></li>
+                                            <li><a href="https://www.youtube.com/channel/UCNtM1e7QIm9WuzIkdtBRxwA/" target="_blank" class="social-google-plus"><i class="fa fa-youtube"></i></a></li>
                                         </ul><br>
                                     </div>
                                 </div>
@@ -78,14 +80,14 @@
         </div>
     </div>
 <!-- FOOTER -->
-<footer id="footer"  style="background-color: #153663 ;">
+<footer id="footer-kontak"  style="background-color: #153663 ;">
 		<!-- container -->
 		<div class="container" >
 			<!-- row -->
 				<div class="col-md-12 col-md-12">
 					<div class="footer-copyright text-center">
 						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-						Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+						Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 					</div>
 				</div>

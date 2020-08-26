@@ -1366,6 +1366,16 @@ textarea.input {
 /*=========================================================
 	FOOTER
 ===========================================================*/
+#footer-kontak {
+  margin-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #1b1c1e;
+  color: #97989b;
+}
+#footer-kontak a {
+  color: #97989b;
+}
 
 #footer {
   margin-top: 40px;

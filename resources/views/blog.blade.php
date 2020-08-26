@@ -5,11 +5,11 @@
                         <div class="col-md-8 hot-post-left"> -->
 					<!-- post -->
 					
-					<div class="container text-center" style="padding-bottom: 50px ;">
+					<!-- <div class="container text-center" style="padding-bottom: 50px ;">
 						<img src="{{ asset('/landing/img/logo_fix.png') }}" alt="" class="img-thumbnail" style="border:none;">
 						<h2 class="text-center">SMK AULIYA TELADAN MANDIRI</h2>
 						<h3 class="text-center">The Leading Entrepreneurial School</h3>
-					</div>
+					</div> -->
 
 					<div class="container">
 						<div class="owl-carousel owl-theme">
@@ -83,9 +83,12 @@
 						<!-- Info Sekolah -->
 							<div class="col-md-12"><br><br>
 								<h3 class="text-center title">Info Sekolah</h3>
-								<p>
-
-								</p>
+								<div class="col-md-12">
+										<center>
+											{!! $info->info !!}
+										</center>
+											
+										</div>
 							</div>
 						<!--  -->
 						

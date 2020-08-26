@@ -57,7 +57,7 @@
                         </li>
 
                         <li class="dropdown">
-                            <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-book"></i> <span>Hymne</span></a>
+                            <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-music"></i> <span>Hymne</span></a>
                             <ul class="dropdown-menu">
                                 <li><a class="nav-link" href="{{ route('hymne.index') }}">List Hymne</a></li>
                             </ul>
@@ -67,6 +67,9 @@
                             <a href="{{ route('sambutan.index') }}" class="nav-link "><i class="fas fa-volume-up"></i> <span>Sambutan</span></a>
                         </li>
 
+                        <li class="dropdown">
+                            <a href="{{ route('info.index') }}" class="nav-link "><i class="fas fa-volume-up"></i> <span>Info Sekolah</span></a>
+                        </li>
 
                 </aside>
             </div>

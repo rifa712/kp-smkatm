@@ -8,6 +8,7 @@ use App\Category;
 use App\Tags;
 use App\Jurusan;
 use App\sambutan;
+use App\InfoSekolah;
 
 
 class BlogController extends Controller
@@ -18,7 +19,8 @@ class BlogController extends Controller
         $jurusan = Jurusan::all();
         $data = $post->latest()->take(6)->get();
         $sambutan = sambutan::first();
-        return view('blog',compact('data','tag_widget','category_widget','jurusan','sambutan'));
+        $info = InfoSekolah::first();
+        return view('blog',compact('data','tag_widget','category_widget','jurusan','sambutan','info'));
     }
 
     public function isi_blog($slug){

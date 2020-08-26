@@ -36,7 +36,7 @@
     </div>
     <div class="form-group">
         <label>Password</label>
-        <input type="text" class="form-control" name="password">
+        <input type="text" class="form-control" name="password" autocomplete="off">
     </div>
     <div class="form-group">
         <button class="btn btn-primary btn-block">Simpan User</button>

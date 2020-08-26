@@ -1,6 +1,15 @@
 <div class="col-md-4">
 					<!-- category widget -->
 					<div class="aside-widget">
+
+						<div class="section-title">
+							<h2 class="title"><i class="fa fa-search"></i> Search</h2>
+						</div>
+						<div class="category-widget">
+							<form action="{{route('blog.cari')}}" method="get" class="inputcari">
+								<input class="input" name="cari" placeholder="Cari...">
+							</form>
+						</div><br>
 						
 						<div class="section-title">
 							<h2 class="title">Kategori</h2>
@@ -12,6 +21,7 @@
 								@endforeach
 							</ul>
 						</div><br>
+
 						<div class="section-title">
 							<h2 class="title">Tags</h2>
 						</div>
