@@ -81,7 +81,7 @@ class PagesController extends Controller
         Mail::send('emails.contact',$data,function($message) use ($data) {
             $message->from($data['email']);
             $message->replyTo($data['email']);
-            $message->to('rifaalghan@gmail.com');
+            $message->to('dummyakun6661@gmail.com');
             $message->subject($data['subject']);
         });
 

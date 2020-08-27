@@ -68,7 +68,7 @@
                         </li>
 
                         <li class="dropdown">
-                            <a href="{{ route('info.index') }}" class="nav-link "><i class="fas fa-volume-up"></i> <span>Info Sekolah</span></a>
+                            <a href="{{ route('info.index') }}" class="nav-link "><i class="fas fa-info"></i> <span>Info Sekolah</span></a>
                         </li>
 
                 </aside>
