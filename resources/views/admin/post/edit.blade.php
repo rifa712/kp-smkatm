@@ -65,7 +65,7 @@
         <input type="file" name="gambar" class="form-control"> 
     </div>
     <div class="form-group">
-        <button class="btn btn-primary btn-block">Update Kategori</button>
+        <button class="btn btn-primary btn-block">Update Post</button>
     </div>
 </form>
 

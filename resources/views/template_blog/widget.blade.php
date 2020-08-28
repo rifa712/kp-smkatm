@@ -27,7 +27,7 @@
 						</div>
 						<div class="category-widget">
 							@foreach($tag_widget as $hasiil)
-								<a href="{{ route('blog.tags',$hasiil->slug) }}"><button type="button" class="btn btn-info">{{ $hasiil->name }}<span>{{ $hasiil->posts }}</span></button></a>
+								<a href="{{ route('blog.tags',$hasiil->slug) }}"><button type="button" class="btn btn-info" style="margin: 1px;">{{ $hasiil->name }}<span>{{ $hasiil->posts }}</span></button></a>
 							@endforeach
 						</div><br>
 					</div>

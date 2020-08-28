@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Auth::routes(['register' => false]);
+Auth::routes();
 
 Route::get('/','BlogController@index');
 Route::get('/content-field/{slug}','BlogController@isi_blog')->name('blog.isi');

@@ -27,7 +27,7 @@ class BlogController extends Controller
         $category_widget = Category::all();
         $tag_widget = Tags::all();
         $jurusan = Jurusan::all();
-        $data = Posts::where('slug',$slug)->get();
+        $data = Posts::orderBy('id', 'DESC')->where('slug',$slug)->get();
         return view('blog.isi_post',compact('data','tag_widget','category_widget','jurusan'));
     }
 
@@ -51,7 +51,7 @@ class BlogController extends Controller
         $category_widget = Category::all();
         $tag_widget = Tags::all();
         $jurusan = Jurusan::all();
-        $data = $category->posts()->paginate();
+        $data = $category->posts()->orderBy('id', 'DESC')->paginate();
         return view('blog.list_post',compact('data','tag_widget','category_widget','jurusan'));
     }
 
@@ -59,7 +59,7 @@ class BlogController extends Controller
         $category_widget = Category::all();
         $tag_widget = Tags::all();
         $jurusan = Jurusan::all();
-        $data = $tags->post()->paginate();
+        $data = $tags->post()->orderBy('id', 'DESC')->paginate();
         return view('blog.list_post',compact('data','tag_widget','category_widget','jurusan'));
     }
 
