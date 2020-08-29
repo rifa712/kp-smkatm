@@ -10,6 +10,7 @@ use App\Content;
 use App\Staff;
 use App\Jurusan;
 use App\Hymne;
+use App\StrukturOrganisasi;
 
 class PagesController extends Controller
 {
@@ -43,7 +44,8 @@ class PagesController extends Controller
         $category_widget = Category::all();
         $tag_widget = Tags::all();
         $jurusan = Jurusan::all();
-        return view('profil.strukturorganisasi',compact('category_widget','tag_widget','jurusan'));
+        $struktur = StrukturOrganisasi::first();
+        return view('profil.strukturorganisasi',compact('category_widget','tag_widget','jurusan','struktur'));
     }
 
     public function gurustaff()

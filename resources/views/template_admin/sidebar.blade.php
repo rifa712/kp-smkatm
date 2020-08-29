@@ -43,6 +43,10 @@
                         </li>
 
                         <li class="dropdown">
+                            <a href="{{ route('struktur-organisasi.index') }}" class="nav-link "><i class="fas fa-table"></i> <span>Struktur Organisasi</span></a>
+                        </li>
+
+                        <li class="dropdown">
                             <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-users"></i> <span>Kepegawaian</span></a>
                             <ul class="dropdown-menu">
                                 <li><a class="nav-link" href="{{ route('pegawai.index') }}">List Kepegawaian</a></li>
