@@ -59,7 +59,7 @@ class PostController extends Controller
             'content' => $request->content,
             'gambar' => 'public/uploads/posts/'.$new_gambar,
             'slug' => Str::slug($request->judul),
-            'users_id' => Auth::id()
+            'user_id' => Auth::id()
         ]);
 
         $post->tags()->attach($request->tags);
