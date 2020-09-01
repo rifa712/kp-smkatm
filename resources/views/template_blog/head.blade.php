@@ -69,12 +69,9 @@
 					<!-- /logo -->
 
 					<!-- search & aside toggle -->
-					<!-- <div class="nav-btns">
+					<div class="nav-btns">
 						<button class="aside-btn"><i class="fa fa-bars"></i></button>
-							<form action="{{route('blog.cari')}}" method="get" class="inputcari">
-								<input class="input" name="cari" placeholder="Cari...">
-							</form>
-					</div> -->
+					</div>
 					<!-- /search & aside toggle -->
 				</div>
 			</div>
